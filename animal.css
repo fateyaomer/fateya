@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Rubik+Beastly&display=swap');
+
+body{
+	font-family: 'Noto Sans TC;', sans-serif;
+	background-color: darkslategrey;
+	color: whitesmoke;
+}
+
+header{
+	border-top: 10px solid #darkslategrey;
+	padding: 30px;
+	background-color: darkslategrey;
+}
+
+i.fa{
+	font-size: 5em;
+	color: white;
+	margin-top: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+	text-align: center;
+	font-size: 4em;
+	color: black;
+	font-weight: bold;
+	padding: 15px;
+	margin: 0 auto;
+	background-color: whitesmoke;
+    text-align:center; 
+	letter-spacing: 1px;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: whitesmoke;
+	margin-top: 0;
+	padding: 15px 0;
+	border: black 3px solid;
+	border-bottom: black px solid;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+nav li {
+	display: inline;
+	margin: 4px 10px;
+}
+
+nav a: {
+	text-decoration: none;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+nav a:link {
+	color: black;
+}
+nav a: visited {
+	color: grey;
+}
+nav a:hover {
+	color: white;
+}
+nav a:active {
+	color: black;
+}
+
+
+main{
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+
+
+.icons{
+	text-align:center;
+	padding: 10px;
+    color: #peachpuff;
+    max-width:1200px;
+    margin:0 auto;   
+
+}
+
+.icons .fa{
+	font-size: 5em;
+    color: #whitesmoke;	
+}
+
+h2{
+	margin-bottom:2px;
+	margin-top:5px;
+    font-weight:bold;
+    font-size: 2em;
+    color: black;
+}
+
+
+h3{
+	margin-top:1px;
+	margin-bottom:25px;
+	font-weight:bold;
+	font-size: 1.8em;   
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+	margin:40px 0 0 0;
+    display: block;
+    background-color: darkgrey ;
+    color: whitesmoke;
+}
+
+footer a:link{
+    color:darkslategrey;
+}
+
+
+.home-hero{
+
+	background-image:url(images/spider.jpg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	padding: 10px 10px 10px 30px; 
+	color: white;
+}
+
+h2{
+	margin-bottom:1px;
+	margin-top:5px;
+    font-weight:bold;
+}
+h3{
+	margin-top:1px;
+	margin-bottom:20px;
+	font-weight:bold;  
+}
+
+img{
+    margin:0 auto;
+}
+
+.col-sm-4 h3{
+    text-align:center;
+}
+
+blockquote{
+	margin: 10px;
+	padding: 20px;
+	font-size: 1em;
+}
+
+.footer-bottom{
+	background-color: darkslategrey;
+	padding: 10px;
+	color: #whitesmoke;
+	text-align:center;
+}
+.icons .fa{
+    color: black;
+}
+.footer1000{	
+	padding: 40px 0 ;
+    color: darkslategrey;
+    max-width:1000px;
+    margin:0 auto;  
+}
+
+.fa-camera-retro{
+	font-size: 100px;
+	text-align: center;
+	display:block;
+	margin: 10;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #whitesmoke;	
+}
+
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+	border: 10px solid white;
+	box-shadow: 5px 5px 15px 2px whitesmoke; 
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    -webkit-box-shadow: 5px 5px 15px 2px #666666; 
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+    border: 2px solid #ddd;
+	box-shadow: 1px 1px 5px 1px #666666;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+

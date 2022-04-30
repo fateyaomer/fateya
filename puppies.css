@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Rubik+Beastly&display=swap');
+
+body{
+	font-family: 'Noto Sans TC;', sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-size: 4em;
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: peachpuff;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: lightcoral;
+	padding: 5px;
+	margin-top: 0;
+	border: black 3px solid;
+	border-bottom: black 3 px solid;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+nav li {
+	display: inline;
+	margin: 4px 10px;
+}
+
+nav a: {
+	text-decoration: none;
+	padding-right: 10px;
+	text-transform: uppercase;
+
+}
+
+nav a:link {
+color: black;
+}
+nav a: visited {
+	color: grey;
+}
+nav a:hover {
+	color: white;
+}
+nav a:active {
+	color: black;
+}
+
+
+nav{
+	background-color: brown;
+	border-top: 2px solid darkblue:
+	border-bottom: 2px solid darkblue;
+}
+
+main{
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+
+
+.icons{
+	text-align:center;
+	padding: 20px 0 ;
+    color: #lightcoral;
+    max-width:1200px;
+    margin:0 auto;   
+}
+
+.icons .fa{
+	font-size: 5em;
+    color: #lightcoral;	
+}
+
+h2{
+	margin-bottom:2px;
+	margin-top:5px;
+    font-weight:bold;
+    font-size: 40px;
+    color: black;
+
+}
+
+blockquote{
+	margin:20px;
+}
+
+h3{
+	margin-top:1px;
+	margin-bottom:25px;
+	font-weight:bold;
+	font-size: 2em;   
+	font-weight: lighter;
+	color: lightcoral;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    display: block;
+    background-color: peachpuff ;
+    color: lightcoral;
+}
+
+footer a:link{
+    color:black;
+}
+
+img{
+    margin:0 auto;
+    display:block;
+}
+
+
+.home-hero{
+    background-image: url(images/header.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: #whitesmoke;
+    padding: 10px 15px 15px 30px;
+}
+
+
+.col-sm-4 h3{
+    text-align:center;
+}
+
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
